@@ -71,9 +71,10 @@ const RevealCards = () => {
           link="https://www.figma.com/proto/zibhdzbmy83lL1H3hbTTP7/Figma-source-file?page-id=3336%3A59&node-id=5190-1303&viewport=250%2C107%2C0.25&t=dsSD4k74ACAHR7B3-1&scaling=min-zoom&content-scaling=fixed"
         />
         <Card
-          title="Modern"
-          description="This one's real blocky"
-          imgSrc="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80"
+          title="King Los"
+          description="Figma Website Design for artist King los"
+          imgSrc="/kingLos.png"
+          link="https://www.figma.com/proto/VOM7uRN0LHVIswGyMnhiSJ/YORN_MUSIC---VIDEO-UI-TEMPLATE?page-id=101%3A6&node-id=101-79&viewport=236%2C97%2C0.13&t=eBcFl2SlRboLtuYi-1&scaling=min-zoom&content-scaling=fixed"
         />
       </Grid>
     </Box>
@@ -130,6 +131,7 @@ const Card = ({ imgSrc, title, description, link }) => {
         color="black"
         _hover={{ color: "indigo.500" }}
         transition="color 0.2s"
+        target="_blank"
       >
         <Flex alignItems="center">
           <Text fontSize="xs">MORE</Text>
