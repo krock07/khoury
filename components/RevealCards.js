@@ -36,7 +36,7 @@ const RevealCards = () => {
         />
         <Card
           title="Earnings Tournament"
-          description="Earnings Tournament. Predict stock market outcomes. (React, Typescript)"
+          description="Earnings Tournament. Predict stock market outcomes. (React, TypeScript)"
           imgSrc="/ETournament.png"
           link="https://earningstournament.com/"
         />
@@ -48,7 +48,7 @@ const RevealCards = () => {
         />
         <Card
           title="Nubian Roots Beauty Spa"
-          description="Spa website built with Javascript, CSS, HTML"
+          description="Spa website built with JavaScript, CSS, HTML"
           imgSrc="/NubianRoots.png"
           link="https://nubianrootsbeautyandspa.com/"
         />
