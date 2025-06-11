@@ -17,7 +17,8 @@ const Nav = () => {
       {/* Coordinates Text */}
       <Text
         fontSize="xs"
-        color="gray.400"
+        color="white"
+        zIndex={99}
         display={{ base: "none", md: "block" }}
       >
         33° 44&apos; 56&quot; N, 84° 23&apos; 24&quot; W
@@ -62,7 +63,7 @@ const Logo = () => {
 
 const Links = () => {
   return (
-    <Flex as="nav" gap={3} fontSize="sm">
+    <Flex as="nav" gap={3} fontSize="sm" zIndex={99}>
       <Link href="#faqs" color="white">
         FAQs
       </Link>

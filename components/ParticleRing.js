@@ -1,15 +1,26 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
-import { pointsInner, pointsOuter } from "@/utils";
+import { pointsInner, pointsOuter } from "../src/utils";
 import { EncryptButton } from "./EncryptButton";
 import Nav from "./Nav";
 
 const ParticleRing = () => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setIsClient(true);
+    }
+  }, []);
+
+  if (!isClient) {
+    return null; // or loading skeleton
+  }
   return (
     <Box
       position="relative"
