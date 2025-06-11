@@ -9,11 +9,7 @@ import StackedCardTestimonials from "@components/StackedCardTestimonials";
 import { TabsFAQ } from "@components/TabsFAQ";
 import TerminalContact from "@components/TerminalContact";
 import Testimonials from "@components/Testimonials";
-import TheProcess, {
-  GridCards,
-  HoverImageLinks,
-  StickyCards,
-} from "@components/GridCards";
+import TheProcess, { GridCards, StickyCards } from "@components/GridCards";
 import TrustedSection from "@components/TrustedBySection";
 import styles from "./page.module.css";
 import OppoScroll from "@components/GridCards";
